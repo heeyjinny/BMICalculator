@@ -1,6 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_title2"
+        android:gravity="center"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="100dp"
+        android:paddingEnd="100dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_orange"
+                android:gravity="center"
+                android:text="BMI"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_orange"
+                android:gravity="center"
+                android:text="비만도"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light_orange"
+                android:gravity="center"
+                android:text="18.5 미만"
+                android:textColor="@color/custom_black" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light2_orange"
+                android:gravity="center"
+                android:text="저체중"
+                android:textColor="@color/custom_black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light_orange"
+                android:gravity="center"
+                android:text="18.5 ~ 22.9"
+                android:textColor="@color/custom_black" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light2_orange"
+                android:gravity="center"
+                android:text="정상체중"
+                android:textColor="@color/custom_black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light_orange"
+                android:gravity="center"
+                android:text="23.0 ~ 24.9"
+                android:textColor="@color/custom_black" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light2_orange"
+                android:gravity="center"
+                android:text="과체중"
+                android:textColor="@color/custom_black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light_orange"
+                android:gravity="center"
+                android:text="25.0 ~ 29.9"
+                android:textColor="@color/custom_black" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light2_orange"
+                android:gravity="center"
+                android:text="경도비만"
+                android:textColor="@color/custom_black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light_orange"
+                android:gravity="center"
+                android:text="30.0 ~ 34.9"
+                android:textColor="@color/custom_black" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light2_orange"
+                android:gravity="center"
+                android:text="중정도비만"
+                android:textColor="@color/custom_black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light_orange"
+                android:gravity="center"
+                android:text="35.0 이상"
+                android:textColor="@color/custom_black" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="@color/custom_light2_orange"
+                android:gravity="center"
+                android:text="고도비만"
+                android:textColor="@color/custom_black" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI결과 : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_black"
+            android:textSize="18sp"
+            tools:text="23.11" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="나는..."
+            android:textColor="@color/custom_black"
+            android:textSize="19sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/resultStringTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/custom_black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="'과체중'" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/custom_black"
+                android:textSize="24sp"
+                android:text=" 입니다." />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resultIconTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="😞"
+            android:textSize="50sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_recheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="@string/recheck"
+        android:textSize="15sp"
+        android:backgroundTint="@color/custom_orange"/>
+
+</LinearLayout>

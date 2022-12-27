@@ -47,7 +47,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="키를 입력하세요"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="match_parent"
@@ -67,7 +67,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="몸무게를 입력하세요"
-        android:inputType="number" />
+        android:inputType="numberDecimal"/>
 
     <Button
         android:id="@+id/btn_check"
@@ -77,6 +77,6 @@
         android:layout_marginTop="32dp"
         android:backgroundTint="@color/custom_orange"
         android:text="@string/check"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
 </LinearLayout>

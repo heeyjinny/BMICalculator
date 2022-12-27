@@ -51,9 +51,9 @@ class MainActivity : AppCompatActivity() {
 
             //2-1
             //에디드텍스트에 입력된 값 가져오기
-            //Int형으로 텍스트 값 가져오기: .toString().toInt()
-            val height: Int = etHeight.text.toString().toInt()
-            val weight: Int = etWeight.text.toString().toInt()
+            //Double형으로 텍스트 값 가져오기: .toString().toInt()
+            val height: Double = etHeight.text.toString().toDouble()
+            val weight: Double = etWeight.text.toString().toDouble()
 
             //2-2
             //로그창 확인해보기
@@ -68,6 +68,13 @@ class MainActivity : AppCompatActivity() {
             //인텐트 사용하기
             //두 가지 인자 넘겨주기: 현재액티비티, 다음으로 넘어갈 액티비티
             val intent = Intent(this, ResultActivity::class.java )
+
+            //4-2
+            //인텐트: https://developer.android.com/guide/components/intents-filters?hl=ko
+            //인텐트를 사용하여 값을 넘겨주기
+            intent.putExtra("height", height)
+            intent.putExtra("weight", weight)
+
             startActivity(intent)
             //4-1
             //실행하여 확인 시 앱이 다운됨...

@@ -11,4 +11,6 @@
 <!--  커스텀 컬러 생성  -->
     <color name="custom_black">#333333</color>
     <color name="custom_orange">#ED8B34</color>
+    <color name="custom_light_orange">#FDD2AB</color>
+    <color name="custom_light2_orange">#FAE9DC</color>
 </resources>
