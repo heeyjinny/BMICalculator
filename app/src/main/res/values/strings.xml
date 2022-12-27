@@ -3,7 +3,7 @@
 
 <!--  커스텀 문자 생성  -->
     <string name="title">나는... 비만일까?😳</string>
-    <string name="sub_title">BMI 계산기</string>
+    <string name="sub_title">[ BMI 계산기 ]</string>
     <string name="height">신장(cm)</string>
     <string name="weight">체중(kg)</string>
     <string name="check">확인하기</string>
