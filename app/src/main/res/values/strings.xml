@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BMICalculator</string>
+    <string name="app_name">비만계산기</string>
 
 <!--  커스텀 문자 생성  -->
     <string name="title">나는... 비만일까?😳</string>
