@@ -73,6 +73,15 @@ class MainActivity : AppCompatActivity() {
             //실행하여 확인 시 앱이 다운됨...
             //로그캣 창 확인: have you declared this activity in your AndroidManifest.xml?
             //AndroidManifest.xml안에 가지고 있는 액티비티를 추가해줘야함!!
+
+            //5
+            //확인 버튼을 누르고 다른 페이지로 이동되면
+            //에디트 텍스트에 작성된 텍스트 모두 삭제하기
+            etHeight.text.clear()
+            etWeight.text.clear()
+            //5-1
+            //포커스를 키입력하는 에디트텍스트로 이동시킴
+            etHeight.requestFocus()
         }
 
     }//onCreate
