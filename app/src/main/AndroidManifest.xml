@@ -25,6 +25,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <!-- 액티비티 추가...  -->
+        <activity android:name=".ResultActivity"/>
     </application>
 
 </manifest>
