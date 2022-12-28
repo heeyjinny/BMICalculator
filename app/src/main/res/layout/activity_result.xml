@@ -45,14 +45,14 @@
                 android:background="@color/custom_light_orange"
                 android:gravity="center"
                 android:text="18.5 미만"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
 
             <TextView
                 android:layout_margin="1dp"
                 android:background="@color/custom_light2_orange"
                 android:gravity="center"
                 android:text="저체중"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
         </TableRow>
 
         <TableRow>
@@ -62,14 +62,14 @@
                 android:background="@color/custom_light_orange"
                 android:gravity="center"
                 android:text="18.5 ~ 22.9"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
 
             <TextView
                 android:layout_margin="1dp"
                 android:background="@color/custom_light2_orange"
                 android:gravity="center"
                 android:text="정상체중"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
         </TableRow>
 
         <TableRow>
@@ -79,14 +79,14 @@
                 android:background="@color/custom_light_orange"
                 android:gravity="center"
                 android:text="23.0 ~ 24.9"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
 
             <TextView
                 android:layout_margin="1dp"
                 android:background="@color/custom_light2_orange"
                 android:gravity="center"
                 android:text="과체중"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
         </TableRow>
 
         <TableRow>
@@ -96,14 +96,14 @@
                 android:background="@color/custom_light_orange"
                 android:gravity="center"
                 android:text="25.0 ~ 29.9"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
 
             <TextView
                 android:layout_margin="1dp"
                 android:background="@color/custom_light2_orange"
                 android:gravity="center"
                 android:text="경도비만"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
         </TableRow>
 
         <TableRow>
@@ -113,14 +113,14 @@
                 android:background="@color/custom_light_orange"
                 android:gravity="center"
                 android:text="30.0 ~ 34.9"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
 
             <TextView
                 android:layout_margin="1dp"
                 android:background="@color/custom_light2_orange"
                 android:gravity="center"
                 android:text="중정도비만"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
         </TableRow>
 
         <TableRow>
@@ -130,14 +130,14 @@
                 android:background="@color/custom_light_orange"
                 android:gravity="center"
                 android:text="35.0 이상"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
 
             <TextView
                 android:layout_margin="1dp"
                 android:background="@color/custom_light2_orange"
                 android:gravity="center"
                 android:text="고도비만"
-                android:textColor="@color/custom_black" />
+                android:textColor="@color/custom_table" />
         </TableRow>
 
     </TableLayout>
